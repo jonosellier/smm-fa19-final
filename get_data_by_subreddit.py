@@ -5,7 +5,7 @@ import sys
 
 dt = datetime.datetime.today()
 
-reddit = praw.Reddit(client_id='EFwvR10eCo5HRw', client_secret='jkmbxFCINJVm_092NmcUDsrFCiM', password='', user_agent='USERAGENT', username='')
+reddit = praw.Reddit(client_id='ID HERE', client_secret='SECRET HERE', password='', user_agent='USERAGENT', username='')
 
 def get_avg_post_sentiment_dfs(parent_comment, net_sentiment, total_comments):
     #print(net_sentiment,total_comments)
